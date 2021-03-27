@@ -1,0 +1,19 @@
+nike-card {
+    --containerGridTemplate: 200px 1fr / 400px;
+    --containerTemplateAreas: "imagen"
+                              "info";
+    --widthCard: 410px;
+    --imgPositionLeft: -15px;
+    --imgPositionTop: -30px;
+    --heightCard: fit-content;
+    --backImgRadius: 0 0 50% 50%; 
+    --marginCard: 30px auto;
+    --imgWidth: 400px; 
+    --sizeFeature: 18px;
+    --sizePrice: 22px;
+    --widthButton: 100px;
+    --heightButton: 50px;
+    --fontSizeButton: 16px;
+    --marginRightButton: 5px;
+    /* --hoverCircleRadius: none; y esta tampoco funciono, solo le da un efecto diferente pero no les quita el hover */
+}

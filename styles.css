@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-size: 3.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1.5px black;
+    margin-bottom: 70px;
+
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nike-card {
+    --marginCard: 10px 8px; /* con esta variable cambio el margen de toda la card*/
+    --backColor: darkmagenta;  /* para cambiar el color de fondo de toda la card*/
+    --colorCircle: white; /* para cambiar el color del circulo detras de la sneaker*/
+    --colorButton: yellow; /*para cambiar el color del boton*/
+    --colorTitle: yellow; /*para cambiar el color del titulo*/
+    --colorCategory: cyan;  /*para cambiar el color de la categoria*/
+    --colorFeature: white;  /*para cambiar el color de la descripcion*/
+    --colorPrice: cyan;  /*para cambiar el color del precio*/
+    --borderCard: solid 1px darkmagenta;  /*para personalizar el borde de la card*/
+    --fontTitle: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /*para personalizar el tipo de letra del titulo*/
+    --fontFeature: Verdana, Geneva, Tahoma, sans-serif;/*para personalizar el tipo de letra de la descripcion*/
+    --fontPrice: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*para personalizar el tipo de letra del precio*/
+}
+
+.crossfit {
+    --backColor: rgb(34, 30, 30);
+    --colorButton: cyan;
+    --colorFeature: white;
+    --colorCircle: cyan;
+}
